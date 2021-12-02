@@ -1,0 +1,46 @@
+
+.nacho{
+    position: absolute; left: 0; width: 300px; height: 600px; margin-top: 25%;
+     background-color: #ef8c15;
+}
+.nacho img{width: 100%; height: 100%;}
+.nacho2{
+    float: left; width: 300px; height: 600px;margin-left: 19%;
+}
+.nacho2 img{width: 100%; height: 100%;}
+.nacho3{
+    position: absolute; right: 0; width: 300px; height: 600px; margin-top: 10%;
+     background-color: #ef8c15;
+     transition: background-color .3s ease, box-shadow .3s ease;
+}
+.nacho3 img{width: 100%; height: 100%;}
+.nacho4{
+    position: absolute; top: 0; width: 300px; height: 600px;margin-top: 60%; margin-left: 37%;
+     background-color: #ef8c15;
+     transition: background-color .3s ease, box-shadow .3s ease;
+}
+.nacho4 img{width: 100%; height: 100%;}
+.nacho:hover{
+     cursor: grab;
+}
+.nacho.ui-draggable-dragging{
+	cursor: grabbing;
+}
+.nacho2:hover{
+     cursor: grab;
+}
+.nacho2.ui-draggable-dragging{
+	cursor: grabbing;
+}
+.nacho3:hover{
+     cursor: grab;
+}
+.nacho3.ui-draggable-dragging{
+	cursor: grabbing;
+}
+.nacho4:hover{
+     cursor: grab;
+}
+.nacho4.ui-draggable-dragging{
+	cursor: grabbing;
+}
